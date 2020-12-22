@@ -4,7 +4,6 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    background: $main;
     color: #fff;
     text-align: center;
     background-color: #000C40;
@@ -12,7 +11,7 @@
 }
 
 #particles-js {
-  background: inherit;
+  background: $main;
   display: flex;
   vertical-align: bottom;
   width: 100%;
