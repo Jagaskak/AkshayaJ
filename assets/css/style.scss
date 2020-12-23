@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import 'header';
+@import '_header.scss';
 // .page-header {
 //     color: #fff;
 //     text-align: center;
