@@ -2,37 +2,37 @@
 ---
 
 @import "{{ site.theme }}";
+@import "header";
+// .page-header {
+//     color: #fff;
+//     text-align: center;
+//     background-color: #000C40;
+//     background-image: linear-gradient(120deg, #F0F2F0, #000C40);
+// }
 
-.page-header {
-    color: #fff;
-    text-align: center;
-    background-color: #000C40;
-    background-image: linear-gradient(120deg, #F0F2F0, #000C40);
-}
+// #wrapper{
+//     position: relative;
+//     width: 100%;
+//     height: 100vh;
+// }
 
-#wrapper{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  vertical-align: bottom;
-  width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+// #particles-js {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   display: flex;
+//   vertical-align: bottom;
+//   width: 100%;
+//   min-height: 100vh;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
   
-  .particles-js-canvas-el {
-    width:100% !important;
-    height: 100vh !important;
-  }
-}
+//   .particles-js-canvas-el {
+//     width:100% !important;
+//     height: 100vh !important;
+//   }
+// }
 
 
 #content{
