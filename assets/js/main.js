@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             },
             color: {
-                value: "#ffffff"
+                value: "#aaaaaa"
             },
             shape: {
                 type: "polygon",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             line_linked: {
                 enable: !0,
                 distance: 150,
-                color: "#ffffff",
+                color: "#eeeeee",
                 opacity: .4,
                 width: 1
             },
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
             detect_on: "canvas",
             events: {
                 onhover: {
-                    enable: !1,
+                    enable: !0,
                     mode: "grab"
                 },
                 onclick: {
