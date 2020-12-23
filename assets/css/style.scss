@@ -13,7 +13,7 @@
 #wrapper{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 #particles-js {
@@ -24,14 +24,13 @@
   display: flex;
   vertical-align: bottom;
   width: 100%;
-  min-height: 100vh;
+  min-height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   
   .particles-js-canvas-el {
     width:100% !important;
-//     height:100vh !important;
     height: fit-content;
   }
 }
