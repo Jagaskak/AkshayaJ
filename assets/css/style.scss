@@ -13,31 +13,29 @@
 #wrapper{
     position: relative;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
 }
 
 #particles-js {
   position: absolute;
-  z-index: -100;
   top: 0;
   left: 0;
   display: flex;
   vertical-align: bottom;
   width: 100%;
-  min-height: fit-content;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   
   .particles-js-canvas-el {
     width:100% !important;
-    height: fit-content;
+    height: 100vh !important;
   }
 }
 
 
 #content{
     position: relative;
-    z-index: 100;
 }
 
