@@ -16,7 +16,6 @@
 
 #particles-js {
   position: absolute;
-  z-index: 1;
   top: 0;
   left: 0;
   display: flex;
@@ -29,5 +28,6 @@
   .particles-js-canvas-el {
     width:100% !important;
     height:100vh !important;
+    z-index: 1;
   }
 }
