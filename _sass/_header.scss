@@ -28,10 +28,10 @@
     display: block;
     line-height: 1;
     color: #FFF;
-    @media only screen and (min-width:$cut){
-      margin: 0;
-      font-size: 100px;
-    }
+//     @media only screen and (min-width:$cut){
+//       margin: 0;
+//       font-size: 100px;
+//     }
   }
   .site-description {
     font-size: 20px;
@@ -39,9 +39,9 @@
     line-height: 1;
     color: #FFF;
     margin-top: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 40px;
-    }
+//     @media only screen and (min-width:$cut){
+//       font-size: 40px;
+//     }
   }
 }
 
@@ -52,9 +52,9 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 20px;
-    }
+//     @media only screen and (min-width:$cut){
+//       font-size: 20px;
+//     }
   }
 }
 
@@ -74,18 +74,18 @@
     border: 2px solid #FFF;
     transition: all .7s;
     &:hover {
-      color: $main;
+      color: orange;
       background: #FFF;
     }
     &:active {
-      color: $main;
+      color: orange;
       background: #FFF;
     }
-    @media only screen and (min-width:$cut) {
-      width: 35px;
-      height: 35px;
-      font-size: 35px;
-    }
+//     @media only screen and (min-width:$cut) {
+//       width: 35px;
+//       height: 35px;
+//       font-size: 35px;
+//     }
   }
 }
 
@@ -113,10 +113,10 @@
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
       &:hover {
-        color: $sec;
+        color: orange;
       }
       &:active {
-        color: $sec;
+        color: orange;
       }
   }
 }
