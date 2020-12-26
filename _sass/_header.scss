@@ -3,7 +3,7 @@
   vertical-align: bottom;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(120deg, #43C6AC, #191654);
+  background-image: linear-gradient(120deg, #43C6AC, 25%, #000C40);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -62,16 +62,17 @@
 }
   
   .icon {
+    vertical-align: middle;
     text-align: center;
     color: white;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
+    width: 65px;
+    height: 65px;
+    font-size: 40px;
     padding: 10px;
-    margin: 5px;
+    margin: 20px;
     border-radius: 50%;
     border: 2px solid #FFF;
-    transition: all .7s;
+    transition: all .4s;
     &:hover {
       color: orange;
       background: #FFF;
