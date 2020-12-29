@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             move: {
                 enable: !0,
-                speed: 4,
+                speed: 1,
                 direction: "none",
                 random: !0,
                 straight: !1,
