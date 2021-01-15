@@ -1,7 +1,13 @@
 // Credit to Brittany Chiang: https://codepen.io/bchiang7/pen/QmBQzx
 #projects {
   text-align: center;
-  padding-top: 50px;
+  padding: 20px 0;
+  width: 80%;
+  margin: 50px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
 }
 
 body {
@@ -23,7 +29,7 @@ a {
   .card {
     background: #fff 50%;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
       1px 3px 8px rgba(39, 44, 49, 0.03);
     transition: all 0.5s ease;
@@ -44,7 +50,7 @@ a {
       position: absolute;
       top: 0;
       left: 0;
-      border-radius: 5px;
+      border-radius: 10px;
       height: 100%;
       width: 100%;
       overflow: hidden;
