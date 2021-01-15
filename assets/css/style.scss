@@ -7,3 +7,21 @@
 @import 'footer';
 @import 'timeline';
 @import 'cards';
+
+body {
+  background: #f4f8fb;
+  font-family: system-ui;
+  box-sizing: border-box;
+}
+
+.section-header {
+  text-align: center;
+  padding: 20px 0;
+  width: 90%;
+  margin: 50px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+}
+
