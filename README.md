@@ -1,5 +1,10 @@
 # Personal Website
-Hi! Thanks for visiting! I'm proud to present the first iteration of my website. There is still much I would like to add, so please stay tuned as I figure out how I want to design it. 
+Hi! Thanks for visiting! I'm proud to present the first iteration of my website. There is still much I would like to add, so please stay tuned. 
+
+## TODO
+* Add a section for interests
+* Modularize the timeline so it's easier to add/remove new elements
+* Make tooltip in timeline more reactive
 
 ## Credits
 This website was inspired by:
