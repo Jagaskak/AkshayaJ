@@ -2,9 +2,11 @@
 Hi! Thanks for visiting! I'm proud to present the first iteration of my website. There is still much I would like to add, so please stay tuned. 
 
 ## TODO
+Not in an particular order
 * Add a section for interests
 * Modularize the timeline so it's easier to add/remove new elements
 * Make tooltip in timeline more reactive
+* Make more user-friendly for mobile
 
 ## Credits
 This website was inspired by:
