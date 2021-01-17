@@ -16,6 +16,15 @@
   --med-grey: #ddd;
 }
 
+.wrapper {
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 10px;
+}
 
 .tooltip {
   position: relative;
@@ -60,15 +69,6 @@
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
-
-
-.wrapper {
-  width: 90%;
-  padding: 20px;
-  margin: auto;
-  background: white;
-  border-radius: 10px;
 }
 
 .timeline-header {
@@ -136,7 +136,7 @@
 
 
 /* dividers */
-span {
+.divider {
   border-left: 1px solid var(--med-grey); 
   grid-row: 1 / span 5;
   z-index: 1;
