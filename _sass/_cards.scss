@@ -10,21 +10,10 @@
     1px 3px 8px rgba(39, 44, 49, 0.03);
 }
 
-body {
-  background: #f4f8fb;
-  font-family: system-ui;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2em;
-  padding: 50px;
   
   .card {
     background: #fff 50%;

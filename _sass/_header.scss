@@ -75,13 +75,30 @@
     border: 2px solid #FFF;
     transition: all .4s;
     &:hover {
-      color: orange;
-      background: #FFF;
+      color: #43c6af;
+      background: #43c6af11;
+      backdrop-filter: blur(1px);
     }
     &:active {
-      color: orange;
+      color: #43c6af;
       background: #FFF;
     }
+  }
+}
+
+#resumeBtn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  padding: 10px; 
+  margin-top: 20px;
+  
+  &:hover {
+    color: #43c6af;
+    background: #43c6af22;
+    border: 1px solid #43c6af;
+    backdrop-filter: blur(1px);
   }
 }
 
@@ -109,10 +126,10 @@
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
       &:hover {
-        color: orange;
+        color: #43c6af;
       }
       &:active {
-        color: orange;
+        color: #43c6af;
       }
   }
 }

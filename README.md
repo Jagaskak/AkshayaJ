@@ -13,3 +13,5 @@ This website was inspired by:
 * [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 * [j3soon](https://github.com/j3soon/particle)
 * [Brittany Chiang](https://github.com/bchiang7/v4)
+* [Amy Cesal](https://www.amycesal.com/)
+* [Ian Yates](https://codepen.io/tutsplus/pen/ZEzerNB)
