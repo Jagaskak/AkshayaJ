@@ -72,12 +72,13 @@
     padding: 10px;
     margin: 20px;
     border-radius: 50%;
-    border: 2px solid #43c6af;
+    border: 2px solid white;
     transition: all .4s;
     &:hover {
       color: #43c6af;
       background: #43c6af11;
       backdrop-filter: blur(1px);
+      border: 2px solid white;
     }
     &:active {
       color: #43c6af;
@@ -87,13 +88,22 @@
 }
 
 #resumeBtn {
-  border: 1px solid #43c6af;
+  border: 1px solid white;
   border-radius: 5px;
   background: transparent;
   color: #fff;
   padding: 10px; 
   margin-top: 20px;
   
+  a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+      color: #43c6af;
+    }
+  }
+
   &:hover {
     color: #43c6af;
     background: #43c6af22;
@@ -102,14 +112,6 @@
   }
 }
 
-a#resumeBtn {
-  color: white;
-  
-  &:hover{
-    text-decoration: none;
-    color: #43c6af;
-  }
-}
 
 .down {
   color: #FFF;
