@@ -16,3 +16,6 @@ This website was inspired by:
 * [Brittany Chiang](https://github.com/bchiang7/v4)
 * [Amy Cesal](https://www.amycesal.com/)
 * [Ian Yates](https://codepen.io/tutsplus/pen/ZEzerNB) 
+
+Pictures:
+* Server - Photo by Brett Sayles from Pexels
